@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Trap Map Generator</title>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0" />
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <h1>Trap Map Generator</h1>
+        <div class="controls">
+            <label class="label">Number of Lanes<input id="numberOfLanes" value="5"/></label>
+            <label class="label">Number of Rows<input id="numberOfRows" value="10"/></label>
+            <label class="label">Probability No Danger<input id="probNoDanger" value="0.2"/></label>
+            <label class="label">Probability Low Danger<input id="probLowDanger" value="0.7"/></label>
+            <label class="label">Probability Medium Danger<input id="probMediumDanger" value="0.9"/></label>
+            <label class="label">Probability High Danger<input id="probHighDanger" value="1"/></label>
+            <button class="generateBtn" id="generateBtn" >Generate</button>
+        </div>
+        <div id="container" class="container">
+        </div>
+    <script src="./index.js"></script>
+    </body>
+</html>
